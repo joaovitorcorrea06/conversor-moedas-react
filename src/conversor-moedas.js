@@ -97,7 +97,7 @@ function converter(event){
               <Form.Control as="select"
                 value={moedaDe}
                 onChange={handleMoedaDe}>
-                <ListarMoedas/>
+                  <ListarMoedas/>
               </Form.Control>
             </Col>
             <Col sm="1" className='text-center' style={{paddingTop:'5px'}}>
